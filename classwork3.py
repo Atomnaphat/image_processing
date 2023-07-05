@@ -1,7 +1,7 @@
 import cv2 as cv
 import random
 
-img = cv.imread('atom.jpg', cv.IMREAD_GRAYSCALE)
+img = cv.imread('atom.png', cv.IMREAD_GRAYSCALE)
 
 density_salt = 0.1
 density_pepper = 0.1
