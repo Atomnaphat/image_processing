@@ -28,3 +28,6 @@ for i in range(number_of_black_pixel):
 filtered_img = cv.medianBlur(img, 5)
 cv.imwrite('atom clean.png',filtered_img)
 
+# check picture
+noise_not_remove = filtered_img - img
+cv.imwrite('check_picture.png',noise_not_remove)
